@@ -140,9 +140,16 @@ main > section{
 
 /* Some Facts Related Styles */
 
+.some-facts{
+  text-align: center;
+  justify-items: center;
+}
+
+
 .facts-container{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 120px;
 }
 
 .fact-card{
@@ -169,10 +176,9 @@ main > section{
 
 }
 
-
-
 .fact-description{
   max-width: 540px;
+  margin-bottom: 100px;
 }
 
 /*responsive media query*/
